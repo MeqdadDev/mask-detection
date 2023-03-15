@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+env-mbit-mask
+screenshot.jpg
+converted_keras.zip
