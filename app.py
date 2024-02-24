@@ -22,9 +22,9 @@ while True:
         print("Safe, it contains a mask.")
     elif "Without" in str(result["class_name"]):
         print(result["class_index"])
-        print("Danger, it is not wearing a mask.")    
+        print("Danger, this person isn't wearing a mask.")
 
-    print("class_confidence:", result["class_confidence"])
+    print("Confidence:", result["class_confidence"])
 
     cv.imshow("Video Stream", img)
 
